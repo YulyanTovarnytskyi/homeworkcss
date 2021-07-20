@@ -1,7 +1,8 @@
 body{
     background: #E5E5E5;
+    
 }
-.wrapper1{
+.bluemasege{
     background: #0B2239;
     width: 1440px;
     height: 72px;
@@ -9,8 +10,9 @@ body{
     justify-content: center;
     align-items: center;
     
+    
 }
-.wrapper1>p{
+.bluemasege>p{
 
 width: 922px;
 height: 40px;
@@ -21,7 +23,7 @@ color: #FFFFFF;
 margin: 16px 42px 16px 120px;
     
 }
-.wrapper1>a{
+.bluemasege>a{
 
 
 width: 86px;
@@ -33,9 +35,10 @@ font-weight: 600;
 font-size: 12px;
 line-height: 20px;
 margin: auto;
+border: none;
 }
 
-.wrapper1>button{
+.bluemasege>button{
 
 width: 130px;
 height: 36px;
@@ -43,10 +46,11 @@ background: #4AD295;
 border-radius: 2px;
 color: #FFFFFF;
 margin: 18px 120px 18px 20px;
+border: none;
 
     
 }
-.wrapper2{
+.blackmassege{
     width: 1440px;
     height: 52px;
     background: #2B2627;
@@ -55,7 +59,7 @@ margin: 18px 120px 18px 20px;
     justify-content: center;
     margin-top: 24px;
 }
-.wrapper2>p{
+.blackmassege>p{
 
 font-size: 13px;
 line-height: 20px;
@@ -63,14 +67,16 @@ color: #FFFFFF;
 margin-left: 20px;
 margin-right: 20px;
 }
-.wrapper2>p>a{
+.blackmassege>p>a{
     color: #FFFFFF;
 }
-.wrapper3{
+.whiteandblack{
     margin-top: 72px;
     margin-bottom: 72px;
+
 }
-.wrapper4{
+
+.light{
 width: 560px;
 height: 72px;
 background:#FFFFFF;
@@ -80,24 +86,27 @@ align-items: center;
 margin-bottom: 24px;
 }
 
-.wrapper4>img{
-    width: 20px;
-    height: 20px;
+.light>img{
+    
     margin: 18px;
+    width: 36px;
+    height: 36px;
+    
+
 
 }
-.wrapper4>p{
+.light>p{
 width: 347px;
 height: 40px;
 color: #0D0C22;
 font-size: 14px;
 line-height: 20px
 }
-.wrapper4>p>a{
+.light>p>a{
     color: #EA4C89;
     text-decoration: none;
 }
-.wrapper4>a{
+.light>a{
 
 width: 63px;
 height: 28px;
@@ -110,7 +119,7 @@ color: #0D0C22;
 text-align: center;
 }
 
-.wrapper4>button{
+.allow{
 width: 52px;
 height: 28px;
 background: #EA4C89;
@@ -120,10 +129,19 @@ font-size: 12px;
 line-height: 20px;
 color: #FFFFFF;
 margin: 26px 26px 26px 20px;
+border: none;
+
 
 
 }
-.wrapper5{
+.decline{
+    width: 63px;
+    height: 28px;
+    background: rgba(13, 12, 34, 0.05);
+    border-radius: 8px;
+    border: none;
+}
+.blacke{
 width: 560px;
 height: 64px;
 background: #26262B;
@@ -133,7 +151,7 @@ align-items: center;
 justify-content: center;
 margin-bottom: 72px;
 }
-.wrapper5>p{
+.blacke>p{
 width: 469px;
 height: 40px;
 font-size: 12px;
@@ -141,17 +159,18 @@ line-height: 20px;
 color: #FFFFFF;
 
 }
-.wrapper5>p>a{
+.blacke>p>a{
     color: orange;
 }
-.wrapper5>button{
+.blacke>button{
     width: 49px;
     height: 28px;
     background: #FFFFFF;
     border-radius: 8px;
+    border: none;
 
 }
-.wrapper6{
+.cookiess{
     display: flex;
     max-width: 760px;
     flex-wrap: wrap;
@@ -159,7 +178,7 @@ color: #FFFFFF;
 /*
 =======wrapper7
 */
-.wrapper7{
+.cookiess1{
 width: 360px;
 height: 206px;
 background: rgba(28, 37, 64, 0.95);
@@ -167,29 +186,37 @@ border-radius: 6px;
 margin-right: 40px;
 margin-bottom: 72px;
 
+
+
+
+
 }
-.wrapper7>h4{
+.cookiess1>h4{
 width: 121px;
 height: 20px;
 color: #FFFFFF;
 margin-left: 24px;
 
 
+
+
 }
-.wrapper7>P{
+.cookiess1>P{
 width: 312px;
 height: 80px;
 color: #FFFFFF;
 text-align: center;
 margin: 10px 24px 24px 24px;
 
+
 }
 
-.wrapper7>p>a{
+.cookiess1>p>a{
     color: #FFFFFF;
+    
 
 }
-.wrapper7>span{
+.http{
 width: 160px;
 height: 16px;
 color: #FFFFFF;
@@ -197,24 +224,31 @@ margin-left: 24px;
 margin-right: 67px;
 margin-bottom: 32px;
 
+font-size: 14px;
+text-decoration: none;
+
+
 }
 
-.wrapper7>button{
+.cookiess1>button{
 width: 85px;
 height: 32px;
 background: #09B3AF;
 border-radius: 6px;
 color: #FFFFFF;
+border: none;
+
+
 }
 
-.wrapper8{
+.cookiess2{
 width: 360px;
 height: 170px;
 background: #FFFFFF;
 border-radius: 16px;
 }
 
-.wrapper8>h4{
+.cookiess2>h4{
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
@@ -222,7 +256,7 @@ border-radius: 16px;
     margin-left: 10px;
 
 }
-.wrapper8>p{
+.cookiess2>p{
     font-size: 14px;
     line-height: 20px;
     color: #687F8C;
@@ -237,6 +271,7 @@ border-radius: 6px;
 margin: 0px 8px 16px 16px;
 font-size: 14px;
 color: #687F8C;
+border: none;
 
 
 
@@ -247,9 +282,10 @@ height: 32px;
 background: #40C1A7;
 border-radius: 6px;
 color: #FFFFFF;
+border: none;
 }
 
-.wrapper9{
+.cookiess3{
 width: 320px;
 height: 260px;
 background: linear-gradient(180deg, rgba(255, 255, 255, 0.15) 0%, rgba(186, 226, 255, 0.15) 23.96%, rgba(229, 217, 255, 0.15) 71.87%, rgba(255, 255, 255, 0.15) 100%), #FFFFFF;
@@ -257,7 +293,7 @@ border-radius: 20px;
 margin-right: 40px;
 }
 
-.wrapper9>h1{
+.cookiess3>h1{
 width: 104px;
 height: 48px;
 color: #15295A;
@@ -265,7 +301,7 @@ margin-top: 32px;
 margin-right: 108px;
 margin-left: 108px;
 }
-.wrapper9>p{
+.cookiess3>p{
     
 width: 256px;
 height: 72px;
@@ -273,7 +309,7 @@ margin-right: 32px;
 margin-left: 32px;
 
 }
-.wrapper9>button{
+.cookiess3>button{
 width: 121px;
 height: 44px;
 background: #4A7EFF;
@@ -281,19 +317,20 @@ border-radius: 43px;
 margin-left: 99.5px;
 margin-right: 99.5px;
 color: #FFFFFF;
+border: none;
 }
-.wrapper10{
+.cookiess4{
 width: 320px;
 height: 137px;
 background: #FFFFFF;
 }
-.wrapper10>p{
+.cookiess4>p{
 width: 288px;
 height: 60px;
 margin-right: 16px;
 margin-left: 16px;
 }
-.wrapper10>a{
+.cookiess4>a{
     width: 95px;
     height: 17px;
     color: #6666FF;
@@ -301,12 +338,13 @@ margin-left: 16px;
     margin-left: 16px;
 
 }
-.wrapper10>button{
+.cookiess4>button{
 width: 64px;
 height: 33px;
 background: #6666FF;
 border-radius: 4px;
 margin-right: 16px;
 color: #FFFFFF;
+border: none;
 
 }
